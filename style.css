@@ -1,0 +1,67 @@
+/* geral */
+body{
+    margin: 0%;
+    padding: 0%;
+    
+    font-family: helvetica, sans-serif;
+    color: #190fa7;
+    border: none;
+    background-image: ("canal.jpg");
+
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus{
+outline: none;
+}
+a {
+    color: crimson;
+}
+body {
+    padding-top: 5vh/* view heingt -> 5% da tela */;
+   
+    background-image: url("../canal.jpg");
+    background-size: cover;
+    background-position-y: -150px;
+}
+ 
+/* form */
+#main-container {
+    width:  500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /* adaptada ao elemento root */
+}
+
+form {
+    
+   
+}
+input[type="submit"]{
+    background-color: rgb(20, 220, 120);
+    color: rgb(34, 7, 107);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+#agreement {
+    margin-right: 5px;
+}
+#agreement, #agreement-label{
+  display: inline-block;  
+  width: auto;
+}
+}
